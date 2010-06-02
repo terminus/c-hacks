@@ -3,5 +3,5 @@ nature because, well, layers of abstraction suck :).
 
 Current contents:
   tsc-drift: measure drift between tsc (timestamp registers on x86) across
-  	cores/processors. This uses a rather neat lockless synchronization
+	cores/processors. This uses a rather neat lockless synchronization
 	algorithm (stolen shamelessly from linux kernel.)

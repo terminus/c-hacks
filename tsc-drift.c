@@ -1,7 +1,7 @@
 /*
  * Measure tsc drift between processors/cores.
  *
- * Commandline: rdtsc number-of-processors
+ * Commandline: tsc number-of-processors
  */
 #define _GNU_SOURCE
 #include <stdio.h>
