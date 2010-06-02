@@ -1,0 +1,7 @@
+A repository for small, hopefully not useless hacks.  Mostly low level in
+nature because, well, layers of abstraction suck :).
+
+Current contents:
+  tsc-drift: measure drift between tsc (timestamp registers on x86) across
+  	cores/processors. This uses a rather neat lockless synchronization
+	algorithm (stolen shamelessly from linux kernel.)
